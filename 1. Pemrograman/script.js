@@ -1,0 +1,1 @@
+// Program adalah urutan intruksi terstruktur yang dirancang agar komputer dapat berperilaku sesuai dengan ketentuan, dengan tujuan untuk menyelesaikan sebuah masalah.

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            text-align: center;
+        }
+
+        .royalblue {
+            font-family: 'Arial';
+            color: #FFF;
+            background-color: #1F1F1F;
+        }
+
+        .tombol {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            color: #FFF;
+            background-image: linear-gradient(to bottom right, #57A5FF, #3059FF, #00AAFF);
+        }
+
+        .kotak {
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }
+
+        .merah {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>WARNA WARNI</h1>
+    <button type="button">UBAH WARNA</button>
+
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255">
+
+    <div class="kotak green"></div>
+    <input type="range" name="sHijau" min="0" max="255">
+
+    <div class="kotak blue"></div>
+    <input type="range" name="sBiru" min="0" max="255">
+
+    <script src="script.js"></script>
+</body>
+</html>
